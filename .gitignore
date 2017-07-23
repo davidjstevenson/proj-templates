@@ -1,0 +1,18 @@
+syntax:glob
+
+#general
+
+*.bak
+*.*~
+*.orig
+*.autosave
+*.log
+*.tmp
+
+# cmake
+
+build/
+build_*/
+bld/
+bld_*/
+
