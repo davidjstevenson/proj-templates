@@ -6,14 +6,12 @@ Boiler plate projects setup and settings
 
 #### Details
 
-The idea here is to provide a script in the `master` branch that enables the creation of new projects setup with all the required boiler plate code
+This provides a script to create new shell projects from the branches of another repo, github.com/davidjstevenson/proj-template-content.git. This is done by doing a shallow clone of the specific branch and turning the result local clone into a new repo.
 
 Current syntax for this (using PowerShell)
-`$ Create-Project -ProjectName TestProject -ProjectLanguage cpp` 
+`$ Create-Project -ProjectPath TestProject -ProjectLanguage cpp` 
 or
-`$ Create-Project -n TestProject -l cpp`
-
-Each project boiler plate code is kept in a branch under the `proj` namespace, e.g. `proj/cpp`
+`$ Create-Project -p TestProject -l cpp`
 
 
 
